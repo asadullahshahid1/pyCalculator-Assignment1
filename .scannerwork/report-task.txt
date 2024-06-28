@@ -1,0 +1,6 @@
+projectKey=pycalculator
+serverUrl=http://localhost:9000
+serverVersion=10.6.0.92116
+dashboardUrl=http://localhost:9000/dashboard?id=pycalculator
+ceTaskId=234ce0ba-278c-4aeb-ab3a-4ef2d69867f2
+ceTaskUrl=http://localhost:9000/api/ce/task?id=234ce0ba-278c-4aeb-ab3a-4ef2d69867f2
