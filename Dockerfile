@@ -1,6 +1,8 @@
 # Use official Python 3.10 image as base
 FROM python:3.10.12
 
-ADD PyCalculator.py 
+# Add PyCalculator.py to the root directory of the container
+ADD PyCalculator.py /
 
-CMD ["python" ,"PyCalculator.py"]
+# Set the command to run when the container starts
+CMD ["python", "PyCalculator.py"]
